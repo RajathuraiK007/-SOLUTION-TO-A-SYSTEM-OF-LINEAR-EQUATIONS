@@ -15,16 +15,21 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-```p
+```
+#Program to find the solution for the given linear equations.
+#Developed by: Rajathurai K
+#RegisterNumber: 212225100036
+
 import numpy as np
-A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-B=np.array([-9,4,-1])
+A=np.array([[1,-3],[3,1]])
+B=np.array([0,10])
 sol=np.linalg.solve(A,B)
 print(sol)
 ```
 ## Output:
 
-<img width="1293" height="835" alt="image" src="https://github.com/user-attachments/assets/9d611f47-5f04-4401-92ea-d5c1762f6599" />
+<img width="1508" height="846" alt="image" src="https://github.com/user-attachments/assets/2a420f3a-8d11-4e1b-9e3c-8bd1edc7c483" />
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
