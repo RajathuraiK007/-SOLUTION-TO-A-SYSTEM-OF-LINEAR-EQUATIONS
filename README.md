@@ -21,14 +21,15 @@ End the program
 #RegisterNumber: 212225100036
 
 import numpy as np
-A=np.array([[1,-3],[3,1]])
-B=np.array([0,10])
+A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+B=np.array([-9,4,-1])
 sol=np.linalg.solve(A,B)
 print(sol)
 ```
 ## Output:
 
-<img width="1508" height="846" alt="image" src="https://github.com/user-attachments/assets/2a420f3a-8d11-4e1b-9e3c-8bd1edc7c483" />
+<img width="1499" height="857" alt="image" src="https://github.com/user-attachments/assets/35b33b2e-c816-4796-8af7-1cd92f73e3cb" />
+
 
 
 ## Result: 
